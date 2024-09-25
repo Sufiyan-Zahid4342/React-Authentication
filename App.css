@@ -1,0 +1,267 @@
+
+  body{
+    flex-wrap: wrap;
+  }
+  .Main img {   
+     position: relative;
+   flex-wrap: wrap;
+    width: 60%;
+    height: 40%;
+    overflow: hidden;
+    border-radius: 8px;
+    object-fit: var(--object-fit);
+    display: block;
+    margin: 10px auto; /* Center the images horizontally */
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    padding: 20px;
+    border-radius: 30px;
+  }
+  .footer {
+    background-color: #fff;
+    color: #16120f;
+    padding: 10px 0;
+    /* display:; */
+  }
+  
+  .container-one {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+   
+  }
+  
+  .footer-section {
+    margin-bottom: 0px;
+  }
+  
+  .footer-section h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .footer-section p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  .input-group {
+    position: relative;
+    display: flex;
+    width: 100%;
+  }
+  
+  .form-control {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    width: 100%;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .input-group-append {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #333;
+    border-radius: 0 5px 5px 0;
+  }
+  
+  .input-group-text {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .app-store-links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .app-store-links a {
+    display: block;
+    width: 45%;
+  }
+  
+  .social-icons {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .social-icons li {
+    display: inline-block;
+  }
+  
+  .social-icons li a {
+    font-size: 24px;
+    color: #fff;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icons li a:hover {
+    color: #ff0000;
+  }
+  
+  .copyright {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+    color: rgb(204, 204, 204);
+  }
+  
+  /* Responsive design */
+  
+  @media (max-width: 768px) {
+    .row {
+      flex-direction: column;
+    }
+  
+    .footer-section {
+      margin-bottom: 20px;
+    }
+  }
+  hr{
+    border: none;
+    background-color: #9e9797;
+  width: 100%;
+  height: 1px;
+  flex-wrap: wrap;
+  }
+
+.Main h2{
+text-align: center; 
+font-weight: bold;
+color: #fcfcfc;
+padding: 1.6rem;
+font-size: 2.5rem;
+text-shadow:4px 5px rgb(20, 14, 14); flex-wrap: wrap;
+}    
+.search-bar{
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+.search-bar input{background-color: rgb(217, 223, 224);
+  justify-content: center;border-radius: 25px;padding:17px; 
+  flex-wrap: wrap;
+}
+.heading{
+  font-size: 30px;font-weight: bolder;
+}
+.nav-link{
+  font-size: 20px;
+  justify-content: end;
+  text-align: end;
+  margin-right: 4.5rem;
+  display: flex; 
+  justify-content: flex-end;
+
+}
+.nav-link link{
+  text-align: end;
+  justify-content: end; 
+}
+/* .navbar {
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 1rem;
+} */
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: #ff5500;
+  padding: 1rem;
+  flex-wrap: wrap;
+}
+
+.heading {
+  color: white;
+  text-decoration: none;
+  margin-right: 1rem;
+  justify-items: start;
+  font-size: 1.5rem; /* Adjust font size as needed */
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.search-bar input {
+  width: 8.5rem;
+  flex-grow: 1;
+}
+
+.nav-link {
+  display: flex;
+  justify-content: flex-end;
+  flex-grow: 1;
+}
+
+.nav-link a {
+  color: white;
+  text-decoration: none;
+  margin-right: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .search-bar {
+    justify-content: flex-start;
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  .search-bar input {
+    width:100%;
+  }
+
+  .nav-link {
+    justify-content: flex-start;
+    margin-top: 1rem;
+    width: 100%;
+  }
+
+  .nav-link a {
+    margin-right: 1rem;
+    margin-bottom: 0.5rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .heading {
+    font-size: 1.2rem; /* Adjust font size for smaller screens */
+  }
+
+  .nav-link a {
+    font-size: 0.9rem; /* Adjust font size for smaller screens */
+  }
+}
